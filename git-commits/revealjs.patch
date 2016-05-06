@@ -1,0 +1,39 @@
+diff --git a/css/theme/solarized.css b/css/theme/solarized.css
+index b4d4d4b..3a35632 100644
+--- a/css/theme/solarized.css
++++ b/css/theme/solarized.css
+@@ -119,7 +119,8 @@ body {
+   font-weight: bold; }
+ 
+ .reveal dd {
+-  margin-left: 40px; }
++  margin-left: 40px;
++  margin-bottom: 10px;}
+ 
+ .reveal q,
+ .reveal blockquote {
+@@ -155,9 +156,11 @@ body {
+   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+ 
+ .reveal code {
++  color: #d33682;
+   font-family: monospace; }
+ 
+ .reveal pre code {
++  color: #657b83;
+   display: block;
+   padding: 5px;
+   overflow: auto;
+diff --git a/js/reveal.js b/js/reveal.js
+index 10c609e..8cfe7c7 100644
+--- a/js/reveal.js
++++ b/js/reveal.js
+@@ -39,7 +39,7 @@
+ 
+ 			// The "normal" size of the presentation, aspect ratio will be preserved
+ 			// when the presentation is scaled to fit different resolutions
+-			width: 960,
++			width: 1024,
+ 			height: 700,
+ 
+ 			// Factor of the display size that should remain empty around the content
