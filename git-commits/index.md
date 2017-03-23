@@ -114,6 +114,19 @@ change:
 
 ## One Change, One Commit
 
+Commits should ideally be:
+
+Complete
+  ~ all the modifications required for a logical change
+
+Consistent
+  ~ the modifications are for only a single logical change
+
+Correct
+  ~ the result compiles and passes all tests
+
+## The CLI is your friend
+
 > - Use `git diff` and `git add` to select files to stage
 > - Use `git add --patch` (aka. `git add -p`)
 >     + Interactively stages chunks of changed files
@@ -206,4 +219,7 @@ Pro Git
 How to Write a Git Commit Message
 :   Chris Beams
 :   http://chris.beams.io/posts/git-commit/
+
+"One Change, One Commit" rules
+:   Rob Hubbard
 
