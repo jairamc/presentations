@@ -50,7 +50,7 @@ To provide a concise *summary* of the commit's changes.
   ----------------------------------------- -------- -------- ---------------------------------------
   <span style="color:green">&#x2713;</span> Add          Adds <span style="color:red">&#x2715;</span>
   <span style="color:green">&#x2713;</span> Update    Updated <span style="color:red">&#x2715;</span>
-  <span style="color:green">&#x2713;</span> Removing Removing <span style="color:red">&#x2715;</span>
+  <span style="color:green">&#x2713;</span> Remove   Removing <span style="color:red">&#x2715;</span>
   ----------------------------------------- -------- -------- ---------------------------------------
 
 # The Description
