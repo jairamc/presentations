@@ -1,10 +1,76 @@
-% Better Commit Messages
-% Nick Telford
-% 2016-04-26
+% Better Git Usage
+% Jairam Chandar
+% 2018-03-14
+
+![Git & Github Training](https://media.giphy.com/media/349qKnoIBHK1i/giphy.gif "Git & Github Training")
+
+## What is Version Control?
+
+_Version control is a system that records changes to a file or set of files over 
+time so that you can recall specific versions later_
+
+# Part 1
+
+# Version Control
+
+## Local Version Control
+
+![Local Version Control](https://git-scm.com/book/en/v2/images/local.png "Local Version Control"){ width=50% }
+
+## Centralized Version Control
+
+![Centralized Version Control](https://git-scm.com/book/en/v2/images/centralized.png "Centralized Version Control"){ width=50% }
+
+## Distributed Version Control
+
+![Distributed Version Control](https://git-scm.com/book/en/v2/images/distributed.png "Distributed Version Control"){ width=40% }
+
+
+# Git
+
+## Brief History
+
+_As with many great things in life, Git began with a bit of creative destruction
+ and fiery controversy._
+
+    GIT - the stupid content tracker
+
+    "git" can mean anything, depending on your mood.
+
+    - random three-letter combination that is pronounceable, and not
+    actually used by any common UNIX command.  The fact that it is a
+    mispronounciation of "get" may or may not be relevant.
+    - stupid. contemptible and despicable. simple. Take your pick from the
+    dictionary of slang.
+    - "global information tracker": you're in a good mood, and it actually
+    works for you. Angels sing, and a light suddenly fills the room. 
+    - "goddamn idiotic truckload of sh*t": when it breaks
+
+[The very first Git Commit](https://github.com/git/git/commit/e83c5163316f89bfbde7d9ab23ca2e25604af290?diff=unified#diff-c47c7c7383225ab55ff591cb59c41e6b)
+
+# Usage
+
+## The Main Commands
+
+> - `git clone`: Make a local copy of a Git Repo
+> - `git pull`: Pull changes from remote server to local copy
+> - `git push`: Push local changes to remote server
+> - `git checkout`: Create and change branches
+> - `git merge`: Merge changes from other branches/versions
+> - `git add`: Prepare changes to be committed
+> - `git commit`: Commit changes (create the next version)
+
+# Part 2
+
+# Better Commit Messages
+
+---
 
 ![https://xkcd.com/1296/](https://imgs.xkcd.com/comics/git_commit.png "xkcd Git Commit")
 
-## Structure of a Commit
+
+
+## Structure of a Commit Message
 
     Summary of commit, maximum 50 characters
 
@@ -14,7 +80,7 @@
     
     Closes FTA-239
 
-# The Summary
+# The Commit Summary
 
 ## Purpose
 
@@ -53,7 +119,7 @@ To provide a concise *summary* of the commit's changes.
   <span style="color:green">&#x2713;</span> Remove   Removing <span style="color:red">&#x2715;</span>
   ----------------------------------------- -------- -------- ---------------------------------------
 
-# The Description
+# The Commit Description
 
 ## Purpose
 
@@ -94,13 +160,15 @@ To provide *an explanation* of the changes made.
 
 ## The Editor (VIM)
 
-![VIM, with the blank commit message template](img/vim-template.png)\ 
+![VIM, with the blank commit message template](img/vim-template.png)\
+
 
 ## The Editor (VIM)
 
-![VIM, demonstrating commit message highlighting](img/vim-highlighting.png)\ 
+![VIM, demonstrating commit message highlighting](img/vim-highlighting.png)\
 
-## The Message
+
+## The Commit Message
 
 The complexity of the commit message should reflect the complexity of the 
 change:
@@ -147,7 +215,8 @@ Correct
 
 ---
 
-![Excerpt from "The Scream", by Edvard Munch](img/scream.jpg)\ 
+![Excerpt from "The Scream", by Edvard Munch](img/scream.jpg)
+
 
 ## Good
 
@@ -200,6 +269,11 @@ Correct
     for the size of the target before joining, substantially reducing
     re-allocation overhead.
 
+## Results in 
+
+![Good Example](img/good-example.png "Good Example"){ width=60% }\
+
+
 ## I'm a Bad Person
 
      Merge branch 'develop' into fix/refactor-namespace-parsing
@@ -220,6 +294,4 @@ How to Write a Git Commit Message
 :   Chris Beams
 :   http://chris.beams.io/posts/git-commit/
 
-"One Change, One Commit" rules
-:   Rob Hubbard
 
